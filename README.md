@@ -1,10 +1,23 @@
-# Front-end Test - Building a Search Box Component By Toyosi
+# Building a Search Box Component By Toyosi
 
-This is my implementation of the Front-end Test for D.C, using:
+This is my implementation of D.C's front-end test to build an advance search feature, using:
 
 - Vue 3
 - TypeScript
 - Tailwind CSS
+
+### Implemented features and functionalities
+
+- The 4 different searching states.
+- Dealing with error.
+- Dealing with request time out.
+- keyboard controls (Tab key).
+- Incorporated CSS animations/transitions.
+
+And More:
+
+- Throttling toggle
+- Auto-select tags that match search text
 
 ## Project Setup
 
