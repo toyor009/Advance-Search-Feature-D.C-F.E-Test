@@ -36,3 +36,5 @@ npm run dev
 ```sh
 npm run build
 ```
+
+See deployed verion: [here on Netlify](https://dc-fe-test-toyosi-olayiwola.netlify.app/)
