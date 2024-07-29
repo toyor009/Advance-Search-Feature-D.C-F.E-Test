@@ -54,8 +54,7 @@ function updateInput(event: any) {
   @apply relative;
 
   > input {
-    @apply w-full h-[74px] flex items-center pr-[20px] text-[20px] leading-[26px] font-medium text-title rounded-xl bg-gray;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    @apply w-full h-[74px] flex items-center pr-[20px] text-[20px] leading-[26px] font-medium text-title rounded-xl bg-gray shadow-lg;
   }
 
   &__icon {
