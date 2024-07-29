@@ -83,7 +83,7 @@ const searchText = ref('');
 const selectedTag = ref('');
 const noThrottle = ref(true);
 
-const tagList = ['Langauges', 'Build', 'Design', 'Cloud'];
+const tagList = ['Languages', 'Build', 'Design', 'Cloud'];
 
 const mainContentEl = ref<HTMLHtmlElement>();
 const resultListEl = ref<HTMLHtmlElement>();
@@ -171,7 +171,7 @@ const fetchSearchResult = async () => {
       errorMessage.value = 'The request timed out';
     } else {
       errorMessage.value =
-        'Something went wrong, but this is not your falut :)';
+        'Something went wrong, but this is not your fault :)';
     }
   } finally {
     isLoading.value = false;
